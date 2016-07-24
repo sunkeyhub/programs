@@ -1,3 +1,9 @@
+/**
+ * 大数乘法
+ * @param  number a 参数一
+ * @param  number b 参数二
+ * @return string
+ */
 function multi(a, b) {
     const aArr = (a+'').split('').reverse(); 
     const bArr = (b+'').split('').reverse();
